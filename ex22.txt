@@ -1,0 +1,188 @@
+# Ok what do you know so far?
+
+Exercise 00: The Setup
+# All of these commands are used in the powershell
+-mkdir: make directory (folder)
+-cd: change directory (folder)
+-ls: list contents oof directory (folder)
+
+Exercise 01: A Good First Program
+-print: display text in console
+
+Exercise 02: Comments and Pound Characters
+-#: Comment/disable line. Also known as octothorpe
+
+Exercise 03: Numbers and Math
+- + plus
+- - minus
+- / divide
+- * multiply
+- % modulus  
+- < less-than
+- > greater-than
+- =< less-than or equal to
+- >= greater-than or equal to
+
+Exercise 04: Variables and Names
+- _: underscores in variable names
+- float or floating point: number with decimal
+
+Exercise 05: More Variables and Printing
+- format strings
+- %s: to put a value in a string
+- %d: for numbers ("digits")
+- %r: for raw data (actually, representation)
+
+Exercise 06: Strings and Text
+- '': single quote
+- "": double quote
+
+Exercise 07: More Printing
+- +: for joining strings without spaces
+- ,: for joining strings with spaces
+
+Exercise 08: Printing, Printing
+- True: Boolean value/keyword that doesn't need quotes
+- False: Boolean value/keyword that doesn't need quotes
+
+Exercise 09: Printing, Printing, Printing
+- \: backslash, used to escape characters
+- \n: new line command
+- """: triple quotes to set off several lines of text
+
+Exercise 10: What was that?
+- \\: to escape a backslash \ within a string
+- \': to escape a single quote within a string
+- \": to escape a double quote within a string
+- \r: carriage return within string
+- \t: tab within string
+- ''': Alternative method of triple quotes
+
+Exercise 11: Asking Questions
+- raw_input(): to get typed input from user
+
+Exercise 12: Prompting People
+- raw_input("Prompt text: "): Alternative way to put
+  prompt in for raw_input from user
+- pydoc: powershell command for information on Python topics
+# On powershell type: python -m pydoc open
+# this will tell you what the open command does
+# the -m displays everything in the pydoc folder on your screen.
+# you can do other python topics like file, os, sys instead of open
+
+Exercise 13: Parameters, Unpacking, Variables
+- arguments: variable values provided by users
+- pass: sending info from arguments to variables
+- import: bringing additional features into Python
+- argv: the argument variable (you type the argument on powershell)
+- packing/unpacking values: to get info in and out of argv
+- module: the name for the collection of extra code that
+  can be imported into Python. AKA libraries
+ 
+Exercise 14: Prompting and Passing
+- prompt: a character or string that the user can specify
+  to ask for info from the user
+
+Exercise 15: Reading Files
+- open: Make a file available to Python
+- .: dot operator to join a function (or command or
+     method) to an object
+- .read: read the contents of the file
+- .close: close the file so it is no longer available to Python
+
+Exercise 16: Reading and Writing Files
+- w: write mode
+- r: read mode
+- a: append mode
+- w+: write and read mode
+- r+: read and write mode
+- .truncate: delete contents of file
+- .write: write information to file
+- pydoc import: for info on importing (in powershell)
+- ;: semi-colon can separate commands on a single line
+- len(): command that returns the length of a string
+
+Exercise 17: More Files
+- os.path: a library that adapts the file/directory
+  address to the specific requirements of the operating system
+- exists: a function to determine wheter a specific files
+		  exists; yields a Boolean True or False
+
+Exercise 18: Names, Variables, Code, Functions
+- def: to define custom functions
+- (*args): to refer to list of arguments in a function
+# but it is better to just list the arguments next to the function name
+- : and indent: to set block for function
+
+Exercise 19: Functions and Variables
+- More info on using variables within functions but no new
+  terms or symbols
+
+Exercise 20: Functions and Files
+- .seek(): Go to a specific position within a file (in
+  bytes); .seek(0) goes to the beginning
+- .readline(): read one line from a file
+- +=: shortcut for incrementing a variable
+
+Exercise 21: Functions Can Return Something
+- return: a value that a function makes available for use in a variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
